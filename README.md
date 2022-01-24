@@ -15,7 +15,7 @@ THEN I am able to successfully create and delete reactions to thoughts and add a
 ## Social Media API
 
 # Links
-* GitHub:
+* GitHub: https://github.com/krod2016/SocialMediaAPI
 * Video Walk-through: 
 
 # Description
