@@ -11,3 +11,35 @@ WHEN I test API POST, PUT, and DELETE routes in Insomnia
 THEN I am able to successfully create, update, and delete users and thoughts in my database
 WHEN I test API POST and DELETE routes in Insomnia
 THEN I am able to successfully create and delete reactions to thoughts and add and remove friends to a user’s friend list
+
+## Social Media API
+
+# Links
+* GitHub:
+* Video Walk-through: 
+
+# Description
+This social media API has been created for users to track their friend list. This app also allows the users to add and delete reactions to thoughts on a page. 
+--insert screenshot here--
+Here is a screenshot from the app Insomnia showing how the different routes work for the users.
+
+# Technologies Used
+* Insomnia
+* JavaScript
+* Mongoose
+* MongoDB
+* NoSQL
+* Node.js
+* Express
+
+# Installation
+* I downloaded the necessary technologies to start up this app.
+* Then, I created the folders and files to hold all the information.
+
+# Process
+* First, I created the server to hold the webpage information.
+* Then, I created different routes using the CRUD method.
+* After testing was completed, and successful, I entered 'npm start' in to the terminal to deploy the page.
+
+# Credits
+Made by: Katrina Rodriguez
