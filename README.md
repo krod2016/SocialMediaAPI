@@ -24,13 +24,13 @@ This social media API has been created for users to track their friend list. Thi
 Here is a screenshot from the app Insomnia showing how the different routes work for the users.
 
 # Technologies Used
+* Express
 * Insomnia
 * JavaScript
 * Mongoose
 * MongoDB
 * NoSQL
 * Node.js
-* Express
 
 # Installation
 * I downloaded the necessary technologies to start up this app.
