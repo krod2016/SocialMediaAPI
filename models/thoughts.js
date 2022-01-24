@@ -66,8 +66,8 @@ ThoughtsSchema.virtual('commentCount').get(function () {
   return this.comments.reduce((total, comment) => total + comment.replies.length + 1, 0);
 });
 
-//create the pizza model using the pizza schema
-const Pizza = model('Pizza', PizzaSchema);
+//creates thoughts and reaction models
+const Thoughts = model('Thoughts', ThoughtsSchema);
 
 //export pizza model
-module.exports = Pizza;
+module.exports = Thoughts;
