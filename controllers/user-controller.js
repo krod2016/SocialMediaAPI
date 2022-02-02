@@ -1,17 +1,17 @@
-const { User } = require('/models');
+const { User } = require('../models');
 
 const userController = {
   // get all users
   getAllUsers(req, res) {
     User.find({})
-      .populate({
-        path: 'api/thoughts',
-        select: '-__v'
-      })
-      .populate({
-        path: 'api/users/friends', 
-        select: '-__v'
-      })
+      // .populate({
+      //   path: 'api/thought',
+      //   select: '-__v'
+      // })
+      // .populate({
+      //   path: 'api/users/friends', 
+      //   select: '-__v'
+      // })
       .select('-__v')
       .then(dbUserData => res.json(dbUserData))
       .catch(err => {
@@ -25,7 +25,7 @@ const userController = {
   getUserById({ params }, res) {
     User.findOne({ _id: params.id })
       .populate({
-        path: 'api/thoughts',
+        path: 'api/thought',
         select: '-__v'
       })
       .select('-__v')
