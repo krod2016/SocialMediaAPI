@@ -3,9 +3,9 @@ const dateFormat = require('../utils/dateFormat');
 
 const reactionSchema = new Schema(
   {
-    reactionID: {
-      type: Schema.Types.ObjectID,
-      default: () => new Types.ObjectID,
+    reactionId: {
+      type: Schema.Types.ObjectId,
+      default: () => new Types.ObjectId,
     },
     reactionText: {
       type: String,
@@ -32,6 +32,6 @@ const reactionSchema = new Schema(
   }
 );
 
-const Reaction = model('Reaction', reactionSchema);
+// const Reaction = model('Reaction', reactionSchema);
 
-module.exports = Reaction;
+module.exports = reactionSchema;

@@ -22,7 +22,8 @@ router
   .delete(deleteUser);
 
 //api/users/<userid>/friends
-router.route('/:userId/friends/:friendId').put(addFriend);
+router.route('/:userId/friends/:friendId')
+.put(addFriend);
 
 
 module.exports = router;

@@ -24,10 +24,11 @@ const userController = {
   // get one user by id
   getUserById({ params }, res) {
     User.findOne({ _id: params.id })
-      .populate({
-        path: 'api/thought',
-        select: '-__v'
-      })
+      .populate(
+        // path: 'api/user',
+        // select: '-__v'
+        "friends"
+        )
       .select('-__v')
       .then(dbUserData => {
         if (!dbUserData) {
