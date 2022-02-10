@@ -2,11 +2,12 @@
 
 # Links
 * GitHub: https://github.com/krod2016/SocialMediaAPI
-* Video Walk-through: 
+* Video Walk-through: https://watch.screencastify.com/v/4YDfBxLQRo7jqlEXDH31
 
 # Description
 This social media API has been created for users to track their friend list. This app also allows the users to add and delete reactions to thoughts on a page. 
---insert screenshot here--
+
+![SocialMedia - Homepage](./images/insomnia_homescreen.png)
 Here is a screenshot from the app Insomnia showing how the different routes work for the users.
 
 # Technologies Used
